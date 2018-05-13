@@ -1,8 +1,8 @@
 # react_native_redux
 
-##5.11 完成初步的加法运算
+## 5.11 完成初步的加法运算
 
-##5.13 对redux中的store、action、reducer有了更深的理解
+## 5.13 对redux中的store、action、reducer有了更深的理解
 
 * 初始化界面展示，执行mapStateProps和mapDispatch，显示在展示组件 render
 * 点击按钮，将当前的state和action通过dispatch传递到reducer中
