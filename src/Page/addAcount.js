@@ -4,7 +4,6 @@ import { connect } from 'react-redux';
 import add_action from '../Action/index';
 
 class AddAcount extends Component {
-  
   render() {
       const {count, addCount, b} = this.props;
       console.log(4);
