@@ -69,6 +69,12 @@ const mapStateToProps = state => {
     // b: state.addReducer.b,
 }
 
+//上述如果直接返回一个对象，可以简写成：
+// const mapStateToProps = state =>({
+//   count: state.addReducer.count,
+//   b: state.addReducer.b
+// })
+
 
 //mapDispatchToProps 是一个对象 所以当你用=》函数的形式的时候 是要
 //返回一个对象（或者不用函数而是直接是一个对象也是可以的）
@@ -110,6 +116,8 @@ const mapDispatchToProps = dispath => {
 };
 
 /*
+dispatch源码：
+
 function dispatch(action) {
   if (!isPlainObject(action)) {
     throw new Error('Actions must be plain objects. ' + 'Use custom middleware for async actions.');
