@@ -10,4 +10,5 @@
 * 新的state有变化，会再次执行mapStateToProps方法，更新界面上的state，并再次渲染render
 
 ## 5.15 完成简易的react-navigation 顶部导航
-
+* ![](./exhibition/1.png)
+* ![](./exhibition/1.gif)
