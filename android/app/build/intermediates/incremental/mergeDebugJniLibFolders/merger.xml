@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="/Users/wangrui/Desktop/react_native_redux/android/app/src/main/jniLibs"/></dataSet><dataSet config="debug"><source path="/Users/wangrui/Desktop/react_native_redux/android/app/src/debug/jniLibs"/></dataSet></merger>
