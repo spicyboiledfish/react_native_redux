@@ -8,3 +8,6 @@
 * 点击按钮，将当前的state和action通过dispatch传递到reducer中
 * reducer方法中，会通过传递过来的actionType，返回新的state，再更新存储到store中
 * 新的state有变化，会再次执行mapStateToProps方法，更新界面上的state，并再次渲染render
+
+## 5.15 完成简易的react-navigation 顶部导航
+
