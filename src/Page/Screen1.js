@@ -6,6 +6,7 @@ import add_action from '../Action/index';
 class AddAcount extends Component {
   static navigationOptions = {
     title: 'Welcome',
+    headerBackTitle:null,
   };
   render() {
       const {count, addCount, b} = this.props;
@@ -22,7 +23,7 @@ class AddAcount extends Component {
         </TouchableOpacity>
         <TouchableOpacity 
                 onPress={()=>{
-                        this.props.navigation.navigate('Detail', { title: '下一页'})
+                        this.props.navigation.navigate('Details', { title: '下一页'})
                     }} 
                 style={{width:100,height:30,marginTop:100,backgroundColor:'yellowgreen', justifyContent:'center',alignItems:'center'}}>
             <View>

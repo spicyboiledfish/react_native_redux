@@ -1,9 +1,10 @@
 import React, { Component } from 'react';
-import {  View, Text, TouchableOpacity} from 'react-native';
+import {  View, Text, TouchableOpacity,Button,Image } from 'react-native';
 
 export default class Screen2 extends Component {
   static navigationOptions = {
     title: '第二页',
+    headerBackTitle: null,
   };
   render() {
     const {navigation} = this.props;
