@@ -12,3 +12,6 @@
 ## 5.15 完成简易的react-navigation 顶部导航
 * ![](./exhibition/1.png)
 * ![](./exhibition/1.gif)
+
+## 5.16 对整体的navigation属性进行配置
+ * 解决默认iOS中，返回按钮自带title的问题
